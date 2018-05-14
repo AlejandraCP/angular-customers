@@ -23,8 +23,8 @@ export class MainComponent implements OnInit {
   ngOnInit() {
     
   }
-  onSelect(hero: Hero): void {
-    this.selectedHero = hero;
+  onSelect(costumer: Hero): void {
+    this.selectedHero = costumer;
   }
 
 }

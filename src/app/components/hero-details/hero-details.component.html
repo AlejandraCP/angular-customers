@@ -1,0 +1,20 @@
+<div *ngIf="costumer">
+  <div>
+    <h2>The Customers</h2>
+  </div>
+  <div>
+    <label>Customer name:
+      <input [(ngModel)]="costumer.name" placeholder="name">
+    </label>
+  </div>
+  <div>
+    <p>
+      <span>Id:</span>
+      {{costumer.id}}
+    </p>
+  </div>
+  <div>
+    <span>Name:</span>
+    {{costumer.name}}
+  </div>
+</div>
